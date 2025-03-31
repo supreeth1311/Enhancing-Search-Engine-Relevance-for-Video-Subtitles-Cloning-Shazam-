@@ -1,7 +1,7 @@
 import streamlit as st
 import assemblyai as aai
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_chroma import Chroma
+from langchain_chroma import Chromadb
 from config import CHROMA_DB_PATH, EMBEDDING_MODEL, ASSEMBLYAI_API_KEY
 import tempfile
 
