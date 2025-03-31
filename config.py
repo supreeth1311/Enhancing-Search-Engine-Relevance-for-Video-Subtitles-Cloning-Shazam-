@@ -11,7 +11,8 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # ChromaDB path
-CHROMA_DB_PATH = "./chroma_db"
+#CHROMA_DB_PATH = "./chroma_db"
+CHROMA_DB_PATH = os.getenv("CHROMA_DB_PATH", "./chroma_db")
 
 # AssemblyAI API key
 ASSEMBLYAI_API_KEY=os.getenv("ASSEMBLYAI_API_KEY")
